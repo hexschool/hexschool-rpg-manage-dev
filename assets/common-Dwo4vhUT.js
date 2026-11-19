@@ -1,0 +1,1 @@
+import{t as e}from"./request-Bh0ZAzmf.js";var t={apiGetCommonUploadImage:t=>e.get(`/v1/common/upload/image/${t}`)};export{t};

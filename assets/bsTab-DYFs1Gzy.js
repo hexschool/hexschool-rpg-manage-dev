@@ -1,0 +1,1 @@
+import{a as e}from"./rolldown-runtime-BWaJ3C7D.js";import{t}from"./tab-DAaNPEZb.js";var n=e(t()),r=(e,t)=>{e.forEach((e,r)=>{t[r].element=new n.default(e)})};export{r as t};

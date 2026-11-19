@@ -1,0 +1,1 @@
+function e(e){return new Intl.NumberFormat(`zh-TW`,{style:`currency`,currency:`TWD`,currencyDisplay:`symbol`,minimumFractionDigits:0,maximumFractionDigits:0}).format(e)}export{e as t};

@@ -1,0 +1,1 @@
+import{t as e}from"./request-Bh0ZAzmf.js";var t={apiGetTaskTags:({page:t=1,count:n=20,scoped:r})=>e.get(`/v1/task-tags?page=${t}&count=${n}${r?`&${r}`:``}`),apiGetTaskTagById:t=>e.get(`/v1/task-tags/${t}`),apiPostTaskTags:t=>e.post(`/v1/task-tags`,t),apiPutTaskTagById:(t,n)=>e.put(`/v1/task-tags/${t}`,n),apiDeleteTaskTagById:t=>e.delete(`/v1/task-tags/${t}`)};export{t};
